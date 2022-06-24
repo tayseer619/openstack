@@ -1,0 +1,30 @@
+{
+        "testbed_format_version": "0.1.4",
+        "openstack": {
+                "name": "r178",
+                "cluster": {
+                        "nodes": {
+                                "name": "r178",
+                                "sah": {
+                                        "name": "<< your host name here>>",
+                                        "ip_address": "<< your SAH ip here>>",
+                                        "password": "<< your password here>>",
+                                        "username": "<< your username here>>"
+                                },
+                                "director": {
+                                        "name": "<< your director host name here>>",
+                                        "ip_address": "<< your director ip here>>",
+                                        "password": "<< your password here>>",
+                                        "username": "<< your username here>>"
+                                }
+                        },
+                        "files_path": {
+                                "ini_file": "<< path to your .ini file >>",
+                                "stackrc_file": "<< path to stackrc file >>",
+                                "overcloudrc_file": "<< path to overcloudrc file >>"
+                        }
+
+
+                }
+        }
+}

@@ -1,0 +1,53 @@
+{
+    "network1_name": "testcase_network1",
+    "subnet1_name": "testcase_subnet1",
+    "subnet1_cidr": "192.169.219.0/24",
+    "allowed_start1": "192.168.219.10",
+    "allowed_end1": "192.168.219.200",
+
+    "network2_name": "testcase_network2",
+    "network3_name": "testcase_network3",
+    "subnet2_name": "testcase_subnet2",
+    "subnet2_cidr": "11.0.11.0/24",
+    "allowed_start2": "11.0.101.20",
+    "allowed_end2": "11.0.11.50",
+
+    "router_name":"testcase_router",
+    "external_network_name": "public",
+    "external_subnet": "external_sub",
+    "sriov_port_name":"sriov_port",
+    "image_name": "testcase_image1",
+    "image2_name": "testcase_image2",
+
+    "flavor1_name": "testing_flavor1",
+    "flavor2_name": "testing_flavor2",
+    "flavor_ram": 4096,
+    "flavor_disks": 20,
+    "flavor_vcpus":4,
+
+    "volume1_name": "testcase_volume1",
+    "volume2_name": "testcase_volume2",
+    "volume_size": 10,
+    "snapshot1_name": "testcase_snapshot1",
+
+    "server_1_name": "testcase_server1",
+    "server_2_name": "testcase_server2",
+    "network_provider_type": "vlan",
+    "key_name": "testcase_ssh-key",
+    "key_file": "~/testcase_ssh.pem",
+
+    "loadbalancer1_name": "testcase_lb1",
+    "loadbalancer2_name": "testcase_lb2",
+    "listener1_name": "testcase_listenet1",
+    "listener2_name": "testcase_listenet2",
+    "pool1_name": "testcase_pool1",
+    "pool2_name": "testcase_pool2",
+
+    "instance_boot_wait_retires":3,
+    "instance_ssh_wait_retires":3,
+    "loadbalancer_build_retires":2,
+    "loadbalancer_pool_creation_retires":2,
+    "loadbalancer_listener_creation_retires":2,
+    "bare_metal_node_wait_retires":10
+}
+

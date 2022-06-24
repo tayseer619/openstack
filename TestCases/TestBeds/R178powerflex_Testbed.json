@@ -1,0 +1,28 @@
+{
+        "testbed_format_version": "0.1.4",
+        "openstack": {
+                "name": "r178",
+                "cluster": {
+                        "nodes": {
+                                "name": "r178",
+                                "sah": {
+                                        "name": "sah.dsp.labs",
+                                        "ip_address": "100.67.178.9",
+                                        "password": "Dell0SS!",
+                                        "username": "root"
+                                },
+                                "director": {
+                                        "name": "director.dsp.labs",
+                                        "ip_address": "100.67.178.10",
+                                        "password": "Dell0SS!",
+                                        "username": "osp_admin"
+                                }
+                        },
+                        "files_path": {
+                                "ini_file": "/root/r178powerflex.ini",
+                                "stackrc_file": "/home/osp_admin/stackrc",
+                                "overcloudrc_file": "/home/osp_admin/r178rc"
+                        }
+                }
+        }
+}

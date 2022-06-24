@@ -1,0 +1,30 @@
+{
+        "testbed_format_version": "0.1.4",
+        "openstack": {
+                "name": "r68",
+                "cluster": {
+                        "nodes": {
+                                "name": "r68",
+                                "sah": {
+                                        "name": "sah.dsp.labs",
+                                        "ip_address": "100.67.68.7",
+                                        "password": "Dell0SS!",
+                                        "username": "root"
+                                },
+                                "director": {
+                                        "name": "director.dsp.labs",
+                                        "ip_address": "100.67.68.9",
+                                        "password": "Dell0SS!",
+                                        "username": "osp_admin"
+                                }
+                        },
+                        "files_path": {
+                                "ini_file": "/root/R68.ini",
+                                "stackrc_file": "/home/osp_admin/stackrc",
+                                "overcloudrc_file": "/home/osp_admin/r68rc"
+                        }
+
+                }
+        }
+}
+
